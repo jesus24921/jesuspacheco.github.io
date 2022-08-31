@@ -1,6 +1,6 @@
 
 title = "JESÚS PACHECO"
-baseURL = "https://jesus24921.github.io/jesuspacheco.github.io/"
+baseURL = "https://jesus24921.github.io/"
 languageCode = "en-us"
 theme = "ananke"
 resourceDir = "../resources"
