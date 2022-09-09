@@ -2,23 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://jesus24921.github.io/jesuspacheco.github.io/post/chapter-1/</loc>
-    <lastmod>2019-04-28T17:48:36+08:00</lastmod>
+    <loc>https://jesus24921.github.io/jesuspacheco.github.io/</loc>
+    <lastmod>2022-09-06T17:48:36+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://jesus24921.github.io/jesuspacheco.github.io/</loc>
-    <lastmod>2019-04-28T17:48:36+08:00</lastmod>
+    <loc>https://jesus24921.github.io/jesuspacheco.github.io/post/analisis/</loc>
+    <lastmod>2022-09-06T17:48:36+08:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://jesus24921.github.io/jesuspacheco.github.io/post/</loc>
     <lastmod>2018-11-06T09:29:16+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://jesus24921.github.io/jesuspacheco.github.io/contact/</loc>
-    <lastmod>2017-12-16T09:29:16+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -52,62 +47,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://jesus24921.github.io/jesuspacheco.github.io/post/chapter-2/</loc>
-    <lastmod>2017-04-10T11:00:59-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://jesus24921.github.io/jesuspacheco.github.io/tags/blogging/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
+    <loc>https://jesus24921.github.io/jesuspacheco.github.io/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://jesus24921.github.io/jesuspacheco.github.io/categories/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://jesus24921.github.io/jesuspacheco.github.io/tags/development/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://jesus24921.github.io/jesuspacheco.github.io/tags/fast/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://jesus24921.github.io/jesuspacheco.github.io/tags/go/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://jesus24921.github.io/jesuspacheco.github.io/proyectos/chapter-1/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://jesus24921.github.io/jesuspacheco.github.io/categories/hello-world/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://jesus24921.github.io/jesuspacheco.github.io/proyectos/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://jesus24921.github.io/jesuspacheco.github.io/categories/test/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://jesus24921.github.io/jesuspacheco.github.io/categories/tmp/</loc>
-    <lastmod>2017-04-09T10:58:08-04:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://jesus24921.github.io/jesuspacheco.github.io/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
