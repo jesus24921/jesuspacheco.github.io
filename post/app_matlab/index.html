@@ -6,7 +6,7 @@
     
     <title>DESARROLLO DE UN APP DE ESCRITORIO EN MATLAB PARA PREDECIR VP Y K POR MEDIO DEL MODELO DE JONES | JESÚS PACHECO</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="description" content="Mediante MATLAB se desarrollo un app de escritorio para predecir valores de VP y K mediante el modelo de jones en muestras medidas en laboratorio de Petrofísica.">
+    <meta name="description" content="Mediante MATLAB se desarrollo un app de escritorio para predecir valores de VP y K mediante el modelo de Jones en muestras medidas en laboratorio de Petrofísica.">
     <meta name="generator" content="Hugo 0.102.1" />
     
     
@@ -33,19 +33,19 @@
     
 
     <meta property="og:title" content="DESARROLLO DE UN APP DE ESCRITORIO EN MATLAB PARA PREDECIR VP Y K POR MEDIO DEL MODELO DE JONES" />
-<meta property="og:description" content="Mediante MATLAB se desarrollo un app de escritorio para predecir valores de VP y K mediante el modelo de jones en muestras medidas en laboratorio de Petrofísica." />
+<meta property="og:description" content="Mediante MATLAB se desarrollo un app de escritorio para predecir valores de VP y K mediante el modelo de Jones en muestras medidas en laboratorio de Petrofísica." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://jesus24921.github.io/jesuspacheco.github.io/post/app_matlab/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2022-11-10T11:14:48-04:00" />
 <meta property="article:modified_time" content="2022-11-10T11:14:48-04:00" />
 
 <meta itemprop="name" content="DESARROLLO DE UN APP DE ESCRITORIO EN MATLAB PARA PREDECIR VP Y K POR MEDIO DEL MODELO DE JONES">
-<meta itemprop="description" content="Mediante MATLAB se desarrollo un app de escritorio para predecir valores de VP y K mediante el modelo de jones en muestras medidas en laboratorio de Petrofísica."><meta itemprop="datePublished" content="2022-11-10T11:14:48-04:00" />
+<meta itemprop="description" content="Mediante MATLAB se desarrollo un app de escritorio para predecir valores de VP y K mediante el modelo de Jones en muestras medidas en laboratorio de Petrofísica."><meta itemprop="datePublished" content="2022-11-10T11:14:48-04:00" />
 <meta itemprop="dateModified" content="2022-11-10T11:14:48-04:00" />
-<meta itemprop="wordCount" content="306">
+<meta itemprop="wordCount" content="338">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="DESARROLLO DE UN APP DE ESCRITORIO EN MATLAB PARA PREDECIR VP Y K POR MEDIO DEL MODELO DE JONES"/>
-<meta name="twitter:description" content="Mediante MATLAB se desarrollo un app de escritorio para predecir valores de VP y K mediante el modelo de jones en muestras medidas en laboratorio de Petrofísica."/>
+<meta name="twitter:description" content="Mediante MATLAB se desarrollo un app de escritorio para predecir valores de VP y K mediante el modelo de Jones en muestras medidas en laboratorio de Petrofísica."/>
 
 	
 </head>
@@ -183,21 +183,22 @@
 <hr>
 <h2 id="desarrollo"><em><strong>DESARROLLO</strong></em></h2>
 <p>Para lograr realizar esta aplicación de escritorio se utilizó APP DESIGNER de MATLAB teniendo en cuenta el modelo planteado por Stanley C.Jones en el paper &ldquo;Two Point Determinations of Permeability and PV vs. Net Confining Stress&rdquo;, en donde se midieron areniscas y conglomerados de 1&quot; de diametro y longitud de 1.6 a 3&quot;, en el equipo porosimetro-permeametro klinkenberg estado inestable, el cual utiliza la ley de Boyle para realizar la medición de Volumen poroso y la ecuación de Forcheimer para flujo turbulento para medir la permeabilidad al gas, esto se consigue midiendo la caida de presión a través de la muestra.Las ecuaciones obtenidas a través de este estudio son las siguientes:</p>
-<p><strong>Ecuación para Volumen Poroso</strong></p>
+<h3 id="ecuación-para-volumen-poroso"><strong>Ecuación para Volumen Poroso</strong></h3>
 <p><img src="https://latex.codecogs.com/svg.latex?%5CLarge&amp;space;V_p=%7BV_oexp%5Ba_v(exp%5B-q/q_0%5D)%5D/%7B(1+Cq%7D%7D)" alt="\Large x=\frac{-a\pm\sqrt{a^2-4ac}}{2a}"></p>
 <p>Jones establece C=3000 y qo=3*E-6</p>
-<p>av se puede clacular de la siguiente ecuación:</p>
+<p>av se puede calcular de la siguiente ecuación:</p>
 <p><img src="https://latex.codecogs.com/svg.latex?%5CLarge&amp;space;a_v=ln(%5Cfrac%7BV_1(1+Cq_1)%7D%7BV_2(1+Cq_2)%7D)" alt="\Large x=\frac{-a\pm\sqrt{a^2-4ac}}{2a}"></p>
 <p>q1=primera presión de Confinamiento (psi)</p>
 <p>q2=segunda presión de confinaiento (psi)</p>
 <p>V1=volumen poroso a q1 (cc)</p>
 <p>V2=volumen poroso a q2 (cc)</p>
+<p>por ultimo calculamos Vo</p>
 <p><img src="https://latex.codecogs.com/svg.latex?%5CLarge&amp;space;V_0=%7BV_1%7B(1+Cq_1)%7Bexp%5Ba_v(%7B1-exp%7B%5B-q_1/q_0%5D%7D%7D)%5D%7D%7D%7D" alt="\Large x=\frac{-a\pm\sqrt{a^2-4ac}}{2a}"></p>
-<p><strong>Ecuación para Permeabilidad</strong></p>
+<h3 id="ecuación-para-permeabilidad"><strong>Ecuación para Permeabilidad</strong></h3>
 <p><img src="https://latex.codecogs.com/svg.latex?%5CLarge&amp;space;K=%7BK_oexp%5Ba_k(exp%5B-q/q_0%5D)%5D/%7B(1+Cq%7D%7D)" alt="\Large x=\frac{-a\pm\sqrt{a^2-4ac}}{2a}"></p>
 <p>para encontrar Ko y ak Utilizamos el mismo método utilizado para hallar las ecuaciones en VP</p>
 <h2 id="app-jones"><em><strong>APP JONES</strong></em></h2>
-<p>La aplicación funciona teniendo como data de entrada por lo menos una medición de Volumen Poroso y permeabilidad a solo una presión de confinamiento, para este escenario seleccionamos Single Stress en la app. Si tenemos dos puntos de medición a dos presiones de confinamiento diferentes podemos seleccionar Two Stress.</p>
+<p>La aplicación funciona teniendo como data de entrada por lo menos una medición de Volumen Poroso y permeabilidad a solo una presión de confinamiento, para este escenario seleccionamos Single Stress en la app. Si tenemos dos puntos de medición a dos presiones de confinamiento diferentes podemos seleccionar Two Stress. Al ingresar nuestra data para las pestañas de volumen poroso y permeabilidad ingresamos la presión de confinamiento para la cual queremos tener el valor de Vp y K.</p>
 <h3 id="single-stress"><em>Single Stress</em></h3>
 <table>
 <thead>
